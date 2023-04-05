@@ -1,7 +1,7 @@
 import pygame
 import time
 
-# Initialse la fenêtre
+# Initialise la fenêtre
 pygame.init()
 window_width = 768
 window_height = 600
@@ -19,7 +19,7 @@ font = pygame.font.SysFont("Arial", 30)
 FPS = 60
 clock = pygame.time.Clock()
 
-# Definie les classes
+# Définie les classes
 class Cube(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -99,7 +99,7 @@ while play:
         if event.type == pygame.QUIT:
             play = False
 
-    # Mets à jour les objets
+    # Met à jour les objets
     images.update()
 
     # Vérifie les collisions
@@ -108,7 +108,7 @@ while play:
         break
 
         # Step5 - Mettre fin au jeu ici
-        
+
 
     # Bouge le fond et le sol
     clock.tick(FPS)
@@ -123,10 +123,10 @@ while play:
     images.draw(window)
 
     # Step5 - Augmenter le score
-    
+
     printText(f"Score: {obstacle.score}", (255, 255, 255), window_width // 2, 30)
 
-    # Mets a jour l'écran
+    # Met a jour l'écran
     pygame.display.update()
 
 

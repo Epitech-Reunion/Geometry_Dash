@@ -3,7 +3,7 @@ import pygame
 # Initialse la fenêtre
 pygame.init()
 
-# definition des variables window_width et window_height
+# Définis les variables window_width et window_height
 
 
 window = pygame.display.set_mode((window_width, window_height))
@@ -13,7 +13,7 @@ pygame.display.set_caption("Geometry Dash")
 fond_img = pygame.image.load("fond.png").convert_alpha()
 sol_img = pygame.image.load("sol.png").convert_alpha()
 
-# Initialise la boucle de jeu
+# Initialises la boucle de jeu
 play = True
 
 while play:

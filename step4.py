@@ -1,6 +1,6 @@
 import pygame
 
-# Initialse la fenêtre
+# Initialise la fenêtre
 pygame.init()
 window_width = 768
 window_height = 600
@@ -16,7 +16,7 @@ jump_sound = pygame.mixer.Sound("saut.wav")
 FPS = 60
 clock = pygame.time.Clock()
 
-# Definie les classes
+# Définie les classes
 class Cube(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -86,7 +86,7 @@ while play:
         if event.type == pygame.QUIT:
             play = False
 
-    # Mets à jour les objets
+    # Met à jour les objets
     images.update()
 
     # Bouge le fond et le sol
@@ -101,7 +101,7 @@ while play:
     # Dessine les objets
     images.draw(window)
 
-    # Mets a jour l'écran
+    # Met à jour l'écran
     pygame.display.update()
 
 # Nettoie la fenêtre

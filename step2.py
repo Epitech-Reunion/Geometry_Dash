@@ -14,7 +14,7 @@ cube_img = pygame.image.load("cube.png").convert_alpha()
 FPS = 60
 clock = pygame.time.Clock()
 
-# Definie les classes
+# Définie les classes
 class Cube(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -52,12 +52,12 @@ while play:
 
     window.blit(sol_img, (sol_x, sol_y))
     window.blit(sol_img, (sol_x - sol_img.get_width(), sol_y))
-    
-    
+
+
     # Dessine les objets
     images.draw(window)
 
-    # Mets a jour l'écran
+    # Met a jour l'écran
     pygame.display.update()
 
 # Nettoie la fenêtre

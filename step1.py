@@ -1,6 +1,6 @@
 import pygame
 
-# Initialse la fenêtre
+# Initialise la fenêtre
 pygame.init()
 window_width = 768
 window_height = 600
@@ -11,10 +11,10 @@ pygame.display.set_caption("Geometry Dash")
 fond_img = pygame.image.load("fond.png").convert_alpha()
 sol_img = pygame.image.load("sol.png").convert_alpha()
 
-# initialise la variable cube_img comme ci-dessus
+# Initialises la variable cube_img comme ci-dessus
 
 
-# Definie les classes
+# Définie les classes
 class Cube(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
