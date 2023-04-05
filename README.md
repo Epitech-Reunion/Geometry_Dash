@@ -2,7 +2,7 @@
 A Geometry Dash reproduction in pygame
 
 # Persona
-- Jeune public (10-25ans)
+- Jeune public (15-22ans)
 
 - Concept à savoir :
 
