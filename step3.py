@@ -33,8 +33,8 @@ class Cube(pygame.sprite.Sprite):
         keys = pygame.key.get_pressed()
         if keys[pygame.K_SPACE] and not self.jump:
             # Step3 - Le cube saute
-            pass
             # Step3 - play le son du saut
+            pass
 
         if self.jump:
             if self.jump_height >= -10:

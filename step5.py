@@ -61,7 +61,7 @@ class Obstacle(pygame.sprite.Sprite):
         # Gère les mouvements de l'obstacle
         self.rect.x -= 10
         if 45 <= self.rect.x <= 50:
-            # Modifier le score ici
+            # Step5 Modifier le score ici
             pass
         if self.rect.right < 0:
             self.rect.x = window_width
@@ -76,7 +76,6 @@ def printText(text, color, x, y):
 def finDuJeu():
 
     # Step5 - play le son de fin de jeu ici
-    game_over_sound.play()
 
     printText("Fin du Jeu", (255, 0, 0), window_width // 2, window_height // 2)
     pygame.display.update()
@@ -104,10 +103,8 @@ while play:
 
     # Vérifie les collisions
     if cube.rect.colliderect(obstacle.rect):
-        finDuJeu()
-        break
-
         # Step5 - Mettre fin au jeu ici
+        break
 
 
     # Bouge le fond et le sol
@@ -121,8 +118,6 @@ while play:
 
     # Dessine les objets
     images.draw(window)
-
-    # Step5 - Augmenter le score
 
     printText(f"Score: {obstacle.score}", (255, 255, 255), window_width // 2, 30)
 

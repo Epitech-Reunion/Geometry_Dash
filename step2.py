@@ -31,7 +31,7 @@ play = True
 fond_x = fond_img.get_width()
 
 # Step2 - Donner comme valeur à sol_x la largeur de sol_img
-sol_x = sol_img.get_width()
+sol_x = ...
 sol_y = window_height - sol_img.get_height()
 
 while play:
@@ -50,8 +50,8 @@ while play:
 
     # Step2 - Bouger le sol ici de la même manière que l'arrière plan
 
-    window.blit(sol_img, (sol_x, sol_y))
-    window.blit(sol_img, (sol_x - sol_img.get_width(), sol_y))
+    window.blit(sol_img, (..., ...))
+    window.blit(sol_img, (..., sol_y))
 
 
     # Dessine les objets

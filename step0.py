@@ -4,7 +4,8 @@ import pygame
 pygame.init()
 
 # Définis les variables window_width et window_height
-
+window_width = ...
+window_height = ...
 
 window = pygame.display.set_mode((window_width, window_height))
 pygame.display.set_caption("Geometry Dash")

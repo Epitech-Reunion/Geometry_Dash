@@ -52,8 +52,8 @@ class Obstacle(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
 
         # Step4 - Définir la position de l'obstacle
-        self.rect.x = window_width
-        self.rect.y = window_height - sol_img.get_height() - self.image.get_height()
+        self.rect.x = ...
+        self.rect.y = ...
 
     def update(self):
         # Gère les mouvements de l'obstacle
