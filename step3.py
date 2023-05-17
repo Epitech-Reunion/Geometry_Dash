@@ -45,8 +45,8 @@ class Cube(pygame.sprite.Sprite):
                 self.jump_height -= 1
             else:
                 self.rect.y = window_height - 176
-                self.jump = False
-                self.jump_height = 10
+                # Step3 - Renitialiser les variables jump et jump_height
+                ...
 
 
 # Initialise la boucle de jeu

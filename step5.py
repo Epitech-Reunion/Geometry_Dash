@@ -61,7 +61,7 @@ class Obstacle(pygame.sprite.Sprite):
         # Gère les mouvements de l'obstacle
         self.rect.x -= 10
         if 45 <= self.rect.x <= 50:
-            # Step5 Modifier le score ici
+            # Step5 - Modifier le score ici
             pass
         if self.rect.right < 0:
             self.rect.x = window_width

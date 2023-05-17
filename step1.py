@@ -11,7 +11,7 @@ pygame.display.set_caption("Geometry Dash")
 fond_img = pygame.image.load("fond.png").convert_alpha()
 sol_img = pygame.image.load("sol.png").convert_alpha()
 
-# Initialises la variable cube_img comme ci-dessus
+# Step1 - Initialises la variable cube_img comme ci-dessus
 
 
 # Définie les classes
