@@ -6,8 +6,7 @@ Bonjour !
 Lors de ce coding club, nous allons reproduire une version simplifiée du jeu
 Geometry Dash (un jeu mobile associant musique et réflexes) !
 
-Pour cela, nous utiliserons comme technologie, le langage de programmation nommé “Python” avec sa librairie spécialisée pour les jeux-
-vidéos : Pygame.
+Pour cela, nous utiliserons comme technologie, le langage de programmation nommé “Python” avec sa librairie spécialisée pour les jeux-vidéos : Pygame.
 
 Afin de mener à bien la réalisation de ce jeu, nous avons décidé de la diviser en plusieurs étapes,
 disponibles via plusieurs fichiers nommés en fonction de celles-ci (exemple : step1.py).
