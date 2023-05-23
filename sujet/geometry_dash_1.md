@@ -135,6 +135,3 @@ Si vous n'avez pas d'idées nous vous en proposons plusieurs :
 - un menu
 - un restart
 - un meilleur niveau
-
-
-
